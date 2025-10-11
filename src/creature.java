@@ -8,12 +8,12 @@ class GamingAccount{
     void deposit(double money){
         balance += money;
     }
-    double showBalance(){
+    public double showBalance(){
         return balance;
     }
 }
 
-public class bookmaker{
+public class creature{
     static void main(String[] args){
         GamingAccount account = new GamingAccount(52);
         account.deposit(948);
