@@ -1,12 +1,14 @@
+package watchdemoprilozhka;
+
 import javax.swing.*;
 import java.awt.*;
 
-//Создание окна
-public class screen{
-    public static void main(String[] args){
+public class watchdemoscreen {
+    public static void show() {
         JFrame frame = new JFrame("HOLD MY BEER, SONNY");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800, 830);
+        frame.setVisible(true);
 
         Font font = new Font("SAIBA-45",Font.PLAIN, 25);
         Font labelfont = new Font("Kablammo-Regular", Font.BOLD, 40);
